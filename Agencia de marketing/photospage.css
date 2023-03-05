@@ -1,0 +1,60 @@
+body {
+background-color: ghostwhite;
+
+
+}
+
+div {
+display: flex;
+
+
+}
+
+.pai {
+
+display: flex;
+align-items: center;
+
+
+
+}
+
+
+
+.texto {
+
+display: flex;
+flex-direction: column;
+
+}
+
+.texto p {
+
+max-width: 70%;
+
+
+}
+    
+
+    .paidois {
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+    }
+    
+    
+    
+    .textodois {
+    
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .textodois p {
+    max-width: 70%;
+    
+    }
