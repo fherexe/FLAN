@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="footerheader.css">
+    <link rel="shortcut icon" href="img/main/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
+        <nav class="nav-items">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="aboutUs.html">Sobre Nós</a></li>
+                <a href="contact.html" class="contact-btn">Contato</a>
+            </ul>
+        </nav>
+        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
+    </header>
+
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aboutUs.html">Sobre Nós</a></li>
+            <li><a href="contact.html" >Contato</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------------footer------------------------------------------------>
+    <footer>
+        <div class="container-footer">
+            
+                <ul>
+                    <li><img src="img/main/logowhite.png" alt="logo" class="logo-footer"></li>
+                </ul>
+
+                <ul>
+                    <li><a href="websites.html">Criação de sites</a> </li>
+                    <li><a href="photospage.html">Ensaios fotograficos</a></li>
+                    
+                </ul>
+
+                <ul>
+                    <li><a href="visual.html">Identidade Visual</a></li>
+                    <li><a href="redes.html">Gestão de redes sociais</a></li>
+                </ul>
+            
+                <ul>
+                    <li><a href="aboutUs.html">Sobre Nós</a> </li>
+                    <li><a href="contact.html"> Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social">
+            <ul>
+                <li><a href="#"><img src="img/main/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/main/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/main/twitter-logo.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/main/youtube.png" alt="youtube"></a></li>
+            </ul>
+        </div>
+        <p>&COPY; 2023 Instituto da Oportunidade Social, todos direitos reservados. </p>
+    </footer>
+    
+    <script>
+     AOS.init({
+    duration: 1200,
+    })
+
+    const openNavButton = document.getElementById("openNav");
+    const navMobile = document.querySelector(".nav-mobile");
+  
+    openNavButton.addEventListener("click", function() {
+    navMobile.classList.toggle("visible");
+  });
+    
+    </script>
+    
+</body>
+</html>

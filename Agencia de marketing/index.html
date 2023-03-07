@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------Manter para as outras páginas---------------------->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="footerheader.css">
-    <title>Página principal - Empresa LTDA </title>
+    <link rel="shortcut icon" href="img/main/favicon.ico" type="image/x-icon">
+
+    <!------------------------------------------------------------------------>
+    <link rel="stylesheet" href="style.css">
+    <title>FLAN - Encontre a melhor opção para o seu negócio!</title>
 </head>
 <body>
 <!---------------------Header------------------------------------------------->
@@ -20,18 +22,25 @@
         <nav class="nav-items">
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="#solucoes">Serviços</a></li>
                 <li><a href="aboutUs.html">Sobre Nós</a></li>
-                <a href="contact.html" class="header-btn">Contato</a>
+                <a href="contact.html" class="contact-btn">Contato</a>
             </ul>
         </nav>
-        <button id="toggle" class="menu-nav"><img src="img/main/menu.png" alt="menu"></button>
+        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
     </header>
-    
+
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aboutUs.html">Sobre Nós</a></li>
+            <li><a href="contact.html" >Contato</a></li>
+        </ul>
+    </div>
+
 <!------------------------Inicio---------------------------------------------->
     <main>
         <div class="main-text" data-aos="fade-left" >
-            <h1>O nosso negócio é fazer o seu crescer</h1>
+            <h1>Agência especialista em Serviços Digitais</h1>
             <p>Conheça nossas soluções e encontre a melhor opção para o seu negócio!</p>
             <a href="#solucoes" class="main-btn">Saiba mais</a>
         </div>
@@ -40,6 +49,7 @@
 <!------------------- Section1 Missão, Valores e Visão ---------------------->
 
     <section class="section1">
+    
     
     </section>
 
@@ -69,7 +79,7 @@
                 <p>A gestão eficiente das redes sociais fortalece a presença online e conecta com clientes.
 
                 </p>
-                <a href="gestaoredes.html" class="flip-box-btn" >Saiba mais</a>
+                <a href="redes.html" class="flip-box-btn" >Saiba mais</a>
             </div>
         </div>
 
@@ -89,7 +99,7 @@
             </div>
             <div class="theback">
                 <p>Consulte um profissional de design para planejar e implementar sua identidade visual e diferenciar sua marca da concorrência.</p>
-                <a href="#" class="flip-box-btn" >Saiba mais</a>
+                <a href="visual.html" class="flip-box-btn" >Saiba mais</a>
             </div>
         </div>
     </section>
@@ -115,7 +125,7 @@
         <div class="container-footer">
             
                 <ul>
-                    <li><img src="img/main/logowhite.png" alt="logo"></li>
+                    <li><img src="img/main/logowhite.png" alt="logo" class="logo-footer"></li>
                 </ul>
 
                 <ul>
@@ -125,8 +135,8 @@
                 </ul>
 
                 <ul>
-                    <li><a href="#">Identidade Visual</a></li>
-                    <li><a href="#">Gestão de redes sociais</a></li>
+                    <li><a href="visual.html">Identidade Visual</a></li>
+                    <li><a href="redes.html">Gestão de redes sociais</a></li>
                 </ul>
             
                 <ul>
@@ -152,6 +162,13 @@
     duration: 1200,
     })
 
+    const openNavButton = document.getElementById("openNav");
+    const navMobile = document.querySelector(".nav-mobile");
+  
+    openNavButton.addEventListener("click", function() {
+    navMobile.classList.toggle("visible");
+  });
+    
     </script>
 </body>
 </html>

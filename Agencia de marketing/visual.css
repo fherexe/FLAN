@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+body {
+    background-image: linear-gradient(rgb(240, 240, 240), rgb(104, 248, 193), rgb(110, 248, 239), rgb(64, 200, 250), rgb(102, 112, 242), rgb(73, 108, 246), rgb(122, 84, 246), rgb(18, 41, 248));
+    margin: 0;
+    border: groove rgb(80, 248, 239) 20px;
+}
+
+
+
+.titulo {
+    text-decoration: underline 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20PX;
+}
+
+
+.sub-titulo {
+    
+    text-decoration: underlzne;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+.equipe h3 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+.titulo3 {
+    text-align: center;
+
+}
+
+.texto1 {
+
+    display: flex;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.etapas {
+    text-align: center;
+}
+
+.img2 {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+}
+
+
+.conteudo2 {
+    display: flex;
+}
+
+.img3 img {
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+}
+
+.texto4 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.equipe p{
+margin-bottom: 0;
+}
+
+.equipe h3{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.equipe img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+

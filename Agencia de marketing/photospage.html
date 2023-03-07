@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-pt">
+<html lang="pt-br">
 <head>
     <link rel="stylesheet" href="photospage.css">
     <link rel="stylesheet" href="footerheader.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="shortcut icon" href="img/main/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1><title>Produção</title></h1>
 </head>
 <body> 
+    <!---------------------Header------------------------------------------------->
 
     <header>
-        <img src="img/main/logo.png" alt="logo">
-        <nav>
+        <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
+        <nav class="nav-items">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="aboutUs.html">Sobre Nós</a></li>
+                <a href="contact.html" class="contact-btn">Contato</a>
             </ul>
-            <a href="" class="header-btn">Contato</a>
         </nav>
+        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
     </header>
    
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aboutUs.html">Sobre Nós</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </div>
 
+    <!---------------------Header------------------------------------------------->
+
+
+   
+<div class="section1">
 <div class="pai">
     <div class="texto">
       
@@ -37,11 +53,13 @@
     </div>
 
 
-<img src="https://image.cachorrogato.com.br/thumb/500/500/1/imagens/racas/imagem6.jpg" alt="dog">
+<img src="https://image.cachorrogato.com.br/thumb/500/500/1/imagens/racas/imagem6.jpg" alt="dog" class="imgteste">
+</div>
 </div>
 
+<div class="section2">
 <div class="paidois">
-    <img src="https://img.freepik.com/fotos-premium/asa-vida-selvagem-selvagem-colorido-pena-passaro_665346-547.jpg" alt="papagaio">
+    <img src="https://cdn.alboompro.com/5ebf06054207f40001350b8f_62e4026ca6bef10001681e07/medium/a-espera-por-bernardo-praia-071.jpg?v=1" alt="gestante" class="imgteste">
     <div class="textodois">
       
 <p>Having personally documented well over 300 weddings, I have been fortunate enough to document some of the most beautiful weddings all around the globe. I hope you take some time and visit my little corner on the internet, and learn more about how I can be part of your special day. I'm currently based in Los Angeles, but available worldwide where my camera might take me</p>
@@ -50,13 +68,70 @@
         
       <p>Please take a look around the website, and I hope we connect soon!</p>
     </div>
+    </div>
+</div>
+    <div class="section3">
+<div class="paitres">
+<img src="https://i.pinimg.com/736x/26/85/34/268534037b0edba350d082d215d7c115.jpg" alt="festa" class="imgteste">
+<div class="textotres"></div>
+</div>
+
+</div>
 
 
 
 
 
+ <!-----------------------footer------------------------------------------------>
+ <footer>
+    <div class="container-footer">
+        
+            <ul>
+                <li><img src="img/main/logowhite.png" alt="logo" class="logo-footer"></li>
+            </ul>
 
+            <ul>
+                <li><a href="websites.html">Criação de sites</a> </li>
+                <li><a href="photospage.html">Ensaios fotograficos</a></li>
+                
+            </ul>
 
+            <ul>
+                <li><a href="#">Identidade Visual</a></li>
+                <li><a href="#">Gestão de redes sociais</a></li>
+            </ul>
+        
+            <ul>
+                <li><a href="aboutUs.html">Sobre Nós</a> </li>
+                <li><a href="contact.html"> Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="social">
+        <ul>
+            <li><a href="#"><img src="img/main/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="img/main/instagram.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="img/main/twitter-logo.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="img/main/youtube.png" alt="youtube"></a></li>
+        </ul>
+    </div>
+    <p>&COPY; 2023 Instituto da Oportunidade Social, todos direitos reservados. </p>
+</footer>
+
+<script>
+ AOS.init({
+duration: 1200,
+})
+
+const openNavButton = document.getElementById("openNav");
+const navMobile = document.querySelector(".nav-mobile");
+
+openNavButton.addEventListener("click", function() {
+navMobile.classList.toggle("visible");
+});
+
+</script>
 
 </body>
 </html>
