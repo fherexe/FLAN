@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="footerheader.css">
+    <link rel="stylesheet" href="websites.css">
     <link rel="shortcut icon" href="img/main/favicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <title>Venda de Websites - FLAN </title>
 </head>
 <body>
     <header>
@@ -32,28 +34,78 @@
     </div>
 
 
+<!-- Apresentação --->
+    <main>
+        <div class="main-text">
+            <h1>Criação de Websites</h1>
+            <p>Invista em um site profissional e impulsione suas vendas com a nossa solução de criação de websites</p>
+        </div>
+    </main>
+
+
+
+<!------------------------------ section1 - Portifolio --------------------------->
+
+    <div class="section1">
+        <h2>Alguns dos sites feitos pela nossa equipe</h2>
+    </div>
+
+<!-- section2 - Beneficios --->
+
+    <section class="section2">
+        <h2>Beneficios em ter um site desenvolvido pela FLAN</h2>
+        <div class="container">
+            <div class="web-item">
+                <img src="" alt="">
+                <h2>Facilidade na comunicação com o público</h2>
+                <p>Ter uma presença online sólida aumenta a visibilidade da sua empresa e facilita o encontro dos seus potenciais clientes.</p>
+            </div>
+
+            <div class="web-item">
+                <img src="" alt="">
+                <h2>Aumento da credibilidade</h2>
+                <p>Um website profissional e atualizado ajuda a construir a credibilidade da sua empresa, transmitindo confiança aos consumidores.</p>
+            </div>
+
+            <div class="web-item">
+                <img src="" alt="">
+                <h2>Maior alcance de público</h2>
+                <p>Sua empresa pode alcançar pessoas em diversas regiões e países, expandindo o seu público-alvo.</p>
+            </div>
+
+            <div class="web-item">
+                <img src="" alt="">
+                <h2>Facilidade na comunicação com o público</h2>
+                <p>Um website oferece diversas formas de comunicação com o público, como chat online e formulários de contato, facilitando o atendimento aos clientes.</p>
+            </div>
+        </div>
+
+        <a href="contact.html">Invista agora em um website profissional e impulsione o sucesso do seu negócio online!</a>
+    </section>
 
 
 
 
 
+<!----------------------------- section3 - Carrossel com botao ------------------->
 
+<div class="container">
+    <h1>Conheça nossa equipe</h1>
+    <ul class="control" id="custom-control">
+      <li class="prev">
+        <i class="fas fa-angle-left fa-2x"></i>
+      </li>
+      <li class="next">
+        <i class="fas fa-angle-right fa-2x"></i>
+      </li>
+    </ul>
 
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
+    <div class="my-slider">
+      <img src="img/website/fernando souza.png" alt="">
+      <img src="img/website/fernando souza.png" alt="">
+      <img src="img/website/fernando souza.png" alt="">
+    </div>
+  </div>
 
 
     <!-----------------------footer------------------------------------------------>
@@ -104,8 +156,48 @@
     openNavButton.addEventListener("click", function() {
     navMobile.classList.toggle("visible");
   });
-    
-    </script>
+  </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <script>
+ var slider = tns({
+  container: ".my-slider",
+  items: 1,
+  gutter: 20,
+  slideBy: 1,
+  controlsPosition: "bottom",
+  navPosition: "bottom",
+  mouseDrag: true,
+  autoplay: true,
+  autoplayButtonOutput: false,
+  controlsContainer: "#custom-control",
+  responsive: {
+    0: {
+      items: 1,
+      nav: false
+    },
+    768: {
+      items: 1,
+      nav: true
+    },
+    1440: {
+      items: 1
+    }
+  }
+  // mode: 'gallery',
+  // speed: 2000,
+  // animateIn: "scale",
+  // controls: false,
+  // nav: false,
+  // edgePadding: 20,
+  // loop: false,
+});
+  </script>
+  
+
+
     
 </body>
 </html>
