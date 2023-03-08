@@ -8,6 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
+
+
+
 :root {
     --color1:#111111;
     --color2:#AF40FF;
@@ -215,19 +218,10 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
-    .nav-items {
-        display: none;
-    }
-
-    .menu-hamburger {
-        display: block;
-    }
-}
-
 @media (max-width:514px) {
     .container-footer {
         grid-template-columns: 1fr;
     }
 }
 
-
+}

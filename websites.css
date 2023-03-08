@@ -45,7 +45,26 @@ main {
 }
 
 .section2 {
-    height: 50em;
+  height: 50em;
+}
+
+.section2 h2 {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.benefits {
+  display: flex;
+}
+
+.web-item {
+  display: flex;
+  height: 15em;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: solid red;
+
 }
 
 

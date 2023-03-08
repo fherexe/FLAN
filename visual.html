@@ -15,29 +15,25 @@
 
 
 <body>
-    <header>
-        <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
-        <nav class="nav-items">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="aboutUs.html">Sobre Nós</a></li>
-                <a href="contact.html" class="contact-btn">Contato</a>
-            </ul>
-        </nav>
-        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
-    </header>
-   
-    <div class="nav-mobile">
+   <!-------------------------------Header------------------------------------------------->
+   <header>
+    <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
+    <nav class="nav-items">
         <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="aboutUs.html">Sobre Nós</a></li>
-            <li><a href="contact.html">Contato</a></li>
+            <a href="contact.html" class="contact-btn">Contato</a>
         </ul>
-    </div>
+    </nav>
+</header>
+
+<!-------------------------------------------------------------------------------------->
 
     <div class="titulo">
         <h1>Branding e Identidade Visual</h1>
     </div>
+
+<div data-aos="zoom-out-up"></div>
 
     <div class="texto1">
         <p>O serviço de Branding inclui a análise de posicionamento de marca e pode resultar em diferentes ações que
@@ -53,11 +49,8 @@
             produtos/serviços) e seus clientes.</p>
 
         <div class="img1">
-            <img src="img/imgadrian/img3.png" alt="">
+            <img src="img/imgadr/img3.png" alt="">
         </div>
-
-
-
     </div>
     </div>
 
@@ -95,7 +88,7 @@
         </div>
 
         <div class="img2">
-            <img src="img/imgadrian/img2.png" alt="">
+            <img src="img/imgadr/img2.png" alt="">
 
         </div>
     </div>
@@ -128,7 +121,7 @@
         </div>
 
         <div class="img3">
-            <img src="img/imgadrian/img.png" alt="">
+            <img src="img/imgadr/img.png" alt="">
         </div>
 
     </div>
@@ -169,38 +162,55 @@
             online.</p>
     </div>
 
-    <!--espaço para imagem-->
+    <!----------------------------------espaço para imagem------------------------------->
 
     <div class="equipe">
         <h3><b>Nossa Equipe De Designers</b></h3>
 
 
-        <p> Aqui na Flan nossas equipes são totalmente formadas por família para garantir melhor atendimento e aqui nos
+        <p> Aqui na Flan nossas equipes são totalmente formadas por familhares para garantir melhor atendimento e aqui nos
             buscamos prevenir desentendimentos.
 
         </p>
 
-        <div class="fotos">
+        <div class="familha">
+            <div class="integrantes">
+                <img src="img/imgadr/mae.jpg" alt="">
+                <p>Lucilene da silva (mãe)</p>
+                <p>Design Editorial</p>
+            </div>
 
-            <img src="img/imgadrian/mae.jpg" alt="" class="mae">
-
-            <img src="img/imgadrian/pai.jpg" alt="" class="pai">
-
-            <img src="img/imgadrian/mana.jpg" alt="" class="mana">
-
-            <img src="img/imgadrian/mana2.jpg" alt="" class="mana2">
+            <div class="integrantes">
+                <img src="img/imgadr/pai.png" alt="">
+                <p>Aires De Jesus (pai)</p>
+                <p>Design de Interface</p>
+            </div>
+            <div class="integrantes">
+                <img src="img/imgadr/adrian.jpg" alt="" class="eu">
+                <p>Adrian Ariel</p>
+                <p>Ceo Do Setor De Identidade Visual</p>
+            </div>
+            <div class="integrantes">
+                <img src="img/imgadr/mana2.jpg" alt="" class="mana2">
+                <p>Maire Regis(irmã)</p>
+                <p>Design Digital</p>
+            </div>
 
         </div>
+        
+
+
+
     </div>
     <!--Concepção de Identidade Visual, Design Editorial, Design Digital, Design de Interface
    FUNÇOES-->
 
 
 
-  <!-----------------------footer------------------------------------------------>
-  <footer>
-    <div class="container-footer">
-        
+    <!---------------------------footer------------------------------------------------>
+    <footer>
+        <div class="container-footer">
+
             <ul>
                 <li><img src="img/main/logowhite.png" alt="logo" class="logo-footer"></li>
             </ul>
@@ -208,46 +218,36 @@
             <ul>
                 <li><a href="websites.html">Criação de sites</a> </li>
                 <li><a href="photospage.html">Ensaios fotograficos</a></li>
-                
+
             </ul>
 
             <ul>
                 <li><a href="visual.html">Identidade Visual</a></li>
                 <li><a href="redes.html">Gestão de redes sociais</a></li>
             </ul>
-        
+
             <ul>
                 <li><a href="aboutUs.html">Sobre Nós</a> </li>
                 <li><a href="contact.html"> Contato</a></li>
             </ul>
         </div>
-    </div>
+        </div>
 
-    <div class="social">
-        <ul>
-            <li><a href="#"><img src="img/main/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="img/main/instagram.png" alt="instagram"></a></li>
-            <li><a href="#"><img src="img/main/twitter-logo.png" alt="twitter"></a></li>
-            <li><a href="#"><img src="img/main/youtube.png" alt="youtube"></a></li>
-        </ul>
-    </div>
-    <p>&COPY; 2023 Instituto da Oportunidade Social, todos direitos reservados. </p>
-</footer>
-
-<script>
- AOS.init({
-duration: 1200,
-})
-
-const openNavButton = document.getElementById("openNav");
-const navMobile = document.querySelector(".nav-mobile");
-
-openNavButton.addEventListener("click", function() {
-navMobile.classList.toggle("visible");
-});
-
-</script>
-
+        <div class="social">
+            <ul>
+                <li><a href="#"><img src="img/main/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img/main/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="img/main/twitter-logo.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="img/main/youtube.png" alt="youtube"></a></li>
+            </ul>
+        </div>
+        <p>&COPY; 2023 Instituto da Oportunidade Social, todos direitos reservados. </p>
+    </footer>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
 </body>
 
 </html>
