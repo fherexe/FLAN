@@ -13,26 +13,21 @@
     <title>Venda de Websites - FLAN </title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
-        <nav class="nav-items">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="aboutUs.html">Sobre Nós</a></li>
-                <a href="contact.html" class="contact-btn">Contato</a>
-            </ul>
-        </nav>
-        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
-    </header>
+ <!---------------------Header------------------------------------------------->
 
-    <div class="nav-mobile">
+ <header>
+    <a href="index.html"><img src="img/main/logo.png" alt="logo"></a>
+    <nav class="nav-items">
         <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="aboutUs.html">Sobre Nós</a></li>
-            <li><a href="contact.html" >Contato</a></li>
+            <li><a href="websites.html">Websites</a></li>
+            <li><a href="photospage.html">Ensaios</a></li>
+            <li><a href="redes.html">Gestão de Redes</a></li>
+            <li><a href="visual.html">Branding</a></li>
+            <a href="#" class="contact-btn">Contato</a>
         </ul>
-    </div>
-
+    </nav>
+</header>
 
 <!----------------------------------- Apresentação --------------------------------->
     <main>
@@ -45,10 +40,16 @@
 
 
 <!------------------------------ section1 - Portifolio ----------------------------->
+    <h2>Confira alguns dos sites feitos pela nossa equipe</h2>
 
-    <div class="section1">
-        <h2>Alguns dos sites feitos pela nossa equipe</h2>
-    </div>
+    <section class="section1">
+
+        <div style="background-image: url('img/website/site\ \(1\).png');"></div>
+        <div style="background-image: url('img/website/site\ \(2\).png');"></div>
+        <div style="background-image: url('img/website/site\ \(3\).png');"></div>
+        <div style="background-image: url('img/website/site\ \(4\).png');"></div>
+
+    </section>
 
 <!------------------------------------ section2 Beneficios ---------------------------->
 
@@ -56,31 +57,29 @@
         <h2>Beneficios em ter um site desenvolvido pela FLAN</h2>
         <div class="benefits">
             <div class="web-item">
-                <img src="" alt="">
+                <img src="img/website/social-strategy.png" alt="social">
                 <h2>Facilidade na comunicação com o público</h2>
                 <p>Ter uma presença online sólida aumenta a visibilidade da sua empresa e facilita o encontro dos seus potenciais clientes.</p>
             </div>
 
             <div class="web-item">
-                <img src="" alt="">
+                <img src="img/website/winner.png" alt="vencedor">
                 <h2>Aumento da credibilidade</h2>
                 <p>Um website profissional e atualizado ajuda a construir a credibilidade da sua empresa, transmitindo confiança aos consumidores.</p>
             </div>
 
             <div class="web-item">
-                <img src="" alt="">
+                <img src="img/website/iconjob.png" alt="foguete">
                 <h2>Maior alcance de público</h2>
                 <p>Sua empresa pode alcançar pessoas em diversas regiões e países, expandindo o seu público-alvo.</p>
             </div>
 
             <div class="web-item">
-                <img src="" alt="">
+                <img src="img/website/deal.png" alt="comunicação">
                 <h2>Facilidade na comunicação com o público</h2>
                 <p>Um website oferece diversas formas de comunicação com o público, como chat online e formulários de contato, facilitando o atendimento aos clientes.</p>
             </div>
         </div>
-
-        <a href="contact.html">Invista agora em um website profissional e impulsione o sucesso do seu negócio online!</a>
     </section>
 
 
@@ -90,7 +89,7 @@
 <!----------------------------- section3 - Carrossel com botao -------------------------------->
 
 <div class="container">
-    <h1>Conheça nossa equipe</h1>
+    <h2>Conheça nossa equipe</h2>
     <ul class="control" id="custom-control">
       <li class="prev">
         <i class="fas fa-angle-left fa-2x"></i>
@@ -186,6 +185,9 @@
 });
   </script>
   
+  <script>
+    AOS.init();
+</script>
 
 
     

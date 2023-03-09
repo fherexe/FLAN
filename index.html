@@ -20,20 +20,20 @@
         <nav class="nav-items">
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="aboutUs.html">Sobre Nós</a></li>
-                <a href="contact.html" class="contact-btn">Contato</a>
+                <li><a href="websites.html">Websites</a></li>
+                <li><a href="photospage.html">Ensaios</a></li>
+                <li><a href="redes.html">Gestão de Redes</a></li>
+                <li><a href="visual.html">Branding</a></li>
+                <a href="#" class="contact-btn">Contato</a>
             </ul>
         </nav>
-        <button id="openNav" class="menu-hamburger"><img src="img/main/menu.png" alt="menu"></button>
     </header>
+  
 
-    <div class="nav-mobile">
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="aboutUs.html">Sobre Nós</a></li>
-            <li><a href="contact.html" >Contato</a></li>
-        </ul>
-    </div>
+    <!------------------------------------------------------------------------------->
+
+
+
 
 <!------------------------Inicio---------------------------------------------->
     <main>
@@ -46,17 +46,34 @@
     </main>
 <!------------------- Section1 Missão, Valores e Visão ---------------------->
 
-    <section class="section1">
-    
-    
+    <section class="section1-1" data-aos="fade-top">
+        <div class="MVV">
+            <h1>Seu sucesso é o nosso</h1>
+            <p>Na Flan, somos especialistas em marketing digital , nossa equipe  é composta por um ambiente familiar e trabalha duro para compreender as necessidades de cada cliente e desenvolver estratégias que garantam resultados concretos.</p>
+        </div>
+    </section>
+
+    <section class="section1-2" data-aos="fade-top">
+        <div class="MVV">
+            <h1>Valores que nos movem</h1>
+            <p>Oferecemos soluções personalizadas com transparência, empatia e excelência no atendimento para criar relacionamentos duradouros com nossos clientes e transformar seus negócios.</p>
+        </div>
+    </section>
+
+    <section class="section1-3" data-aos="fade-top">
+        <div class="MVV">
+            <h1>Conhecimento, tecnologia e inovação</h1>
+            <p>Buscamos ser referência em marketing, priorizando satisfação e sucesso dos clientes através de inovação e tecnologia.</p>
+        </div>
     </section>
 
 
-<!---------------------- Section2 Serviços ---------------------------------->
+
+<!--------------------------- Section2 Serviços ---------------------------------->
 
     <h2 class="section2-tittle" data-aos="fade-down">Conheça Nossos Serviços</h2>
 
-    <section class="section2" data-aos="fade-down" id="solucoes">
+    <section class="section2" data-aos="fade-down" id="services">
         
         <div class="flip-box" > 
             <div class="thefront">
@@ -102,21 +119,23 @@
         </div>
     </section>
 
-    <!-------------------section3-------- Parallax------------------------------->
+    <!-------------------section3-------- Botão ------------------------------->
 
     <section class="section3">
-
-
+    <a href="aboutUs.html">Solicite nossa análise gratuita de desempenho da sua empresa no mercado digital!</a>
     </section>
 
     <!-------------------section4-------Parceiros------------------------------------>
     
-
     <section class="section4">
-
-
+        <h2>Nossos Principais Clientes</h2>
+        <div class="drago">
+            <img src="img/main/cell.png" alt="">
+            <img src="img/main/todvds.png" alt="">
+            <img src="img/main/injel.png" alt="">
+            <img src="img/main/Unirir.png" alt="">
+        </div>
     </section>
-
 
     <!-----------------------footer------------------------------------------------>
     <footer>
@@ -159,13 +178,6 @@
      AOS.init({
     duration: 1200,
     })
-
-    const openNavButton = document.getElementById("openNav");
-    const navMobile = document.querySelector(".nav-mobile");
-  
-    openNavButton.addEventListener("click", function() {
-    navMobile.classList.toggle("visible");
-  });
     
     </script>
 </body>

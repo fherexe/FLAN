@@ -8,9 +8,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 
-
-
-
 :root {
     --color1:#111111;
     --color2:#AF40FF;
@@ -29,7 +26,7 @@
 /** ----------------- Header --------------- **/
 
 header { 
-    z-index: 3;
+    z-index: 1;
     position: relative;
     height: 10vh;
     padding:0 10%;
@@ -91,59 +88,8 @@ nav ul li a:hover {
 .contact-btn:hover {
     background-color: #1164ff;
     background-image: none;
+    transition: 1s ease-out;
 }
-
-.menu-hamburger {
-    display: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.menu-hamburger img {
-    height: 30px;
-}
-
-.nav-mobile {
-    z-index: 1;
-    position:fixed;
-    background-color:#fff;
-    width: 50%;
-    height: 100vh;
-    padding: 2em;
-    top: 0;
-    right: 0;
-    border: 2px solid rgb(236, 197, 197);
-    display: none;
- 
-}
-
-.nav-mobile ul {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 100%;
-
-}
-
-.nav-mobile ul li {
-    list-style: none; 
-}
-
-
-.nav-mobile ul li a {
-    text-decoration: none;
-    color: var(--color1);
-    text-transform: uppercase;
-   
-}
-
-.visible {
-    display: block;
-    transition: 10s;
-  }
-  
 
 /**--------------Footer --------------- **/
 

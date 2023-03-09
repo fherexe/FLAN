@@ -80,7 +80,55 @@ main {
 
 /** ------------------------- Section1------------------------- **/
 
+.section1-1 {
+    padding: 2em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30em;
+    background-image: linear-gradient(180deg, #fff 70%,#111111 30%);
+    background-image: url(img/main/missao.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+.MVV {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    height: 12em;
+    width: 20em;
+    padding: 2em;
+    background-color: rgb(230, 230, 230);
+}
+
+.section1-2 {
+    padding: 2em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30em;
+    background-image: linear-gradient(180deg, #fff 70%,#111111 30%);
+    background-image: url(img/main/valores.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.section1-3 {
+    padding: 2em 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30em;
+    background-image: linear-gradient(180deg, #fff 70%,#111111 30%);
+    background-image: url(img/main/visao.avif);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 
 /** ------------------------- Section2------------------------- **/
@@ -195,7 +243,7 @@ main {
     width: fit-content;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#1164ff);
     border: 0;
-    color: #FFFFFF;
+    color: #FFF;
     border-radius: 5px;
 }
 
@@ -209,9 +257,59 @@ main {
 /** ------------------------- Section3------------------------- **/
 
 
+.section3 {
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#1164ff);
+    height: 14em;
+    margin: 4em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 a {
+    color: #fff;
+    border: solid #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section3 a:hover {
+    transition: 0.4s;
+    background-color: #fff;
+    color: var(--color3);
+    transform:translateY(5px)
+}
 
 
+/** ------------------------- Section4------------------------- **/
 
+.section4{
+    background-color: #fcfcfc;
+    height: 26em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.section4 h2{
+  font-size: 30px;
+}
+
+.drago {
+    display: flex;
+    align-items: center;
+
+}
+
+.drago img{
+    width: 170px;
+    margin-left: 85px;
+    margin-bottom: 35px;
+}
 
 
 
