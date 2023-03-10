@@ -25,6 +25,8 @@ main {
 h2 {
   text-align: center;
   padding: 3em 0;
+  font-size: 1.7em;
+  color:#9FA7CB;
 }
 
 .main-text {
@@ -49,8 +51,8 @@ h2 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: all 1.3s cubic-bezier(1, 1, 1, 1.2);
-    filter:grayscale(90%)
+    transition: all 1s cubic-bezier(1, 1, 1, 1);
+    filter:grayscale(100%)
 }
 
 .section1 > div:hover { 
@@ -77,6 +79,7 @@ h2 {
 .section2 h2 {
   text-align: center;
   padding: 3% 0;
+  color: #fff;
 }
 
 .benefits {
