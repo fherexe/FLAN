@@ -105,16 +105,17 @@ h2 {
 
 
   /** -----------------------carrossel ------------------------ **/
+  
   .container {
     position: relative;
     padding: 0 0 15% 0;
     background-color: #9FA7CB;
   }
+
   .container h2 {
     text-align: center;
     padding-bottom: 20px;
     color: #fff;
-    
   }
 
   .tns-nav {
@@ -131,6 +132,7 @@ h2 {
     margin-left: 7px;
     border-radius: 50%;
   }
+
   .tns-nav .tns-nav-active {
     background-color: black;
   }
