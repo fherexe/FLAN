@@ -58,6 +58,7 @@ div {
     display: flex;
     align-items: center;
     padding: 5% 5%;
+    gap: 10%;
 
 
 
@@ -94,8 +95,8 @@ div {
 }
 
 .family img {
-
-    height: 17em;
+    padding: 10px;
+    height: 15em;
     border-radius: 50%;
 
 }
@@ -115,14 +116,17 @@ div {
 }
 
 .paifamily {
-
+    gap: 10%;
     display: flex;
     padding: 5% 0;
 
 }
 
-@media (max-width:900px){
-    .pai, .paidois {
+@media (max-width:900px) {
+
+    .pai,
+    .paidois,
+    .paifamily {
         flex-direction: column;
 
     }

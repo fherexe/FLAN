@@ -90,15 +90,14 @@ html {
 }
 
 .megatron{
-    
     height: 400px;
     display: flex;
    
 }
 
 .megatron img{
-    height: 250px;
-    margin: 65px;
+    height: 210px;
+    margin: 25px;
     width: 250px;
 }
 
@@ -112,6 +111,17 @@ html {
 .familia{
     background-image: linear-gradient(rgb(104, 1, 172), rgb(0, 0, 0));
     color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    margin-top: 20vh;
+}
+
+.familia > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
 }
 
 .familia h2{
@@ -119,6 +129,15 @@ html {
     padding: 2%;
 }
 
+
+@media (max-width:900px) {
+
+    .familia,
+    .container, div {
+        flex-direction: column;
+
+    }
+}
 
 
 
