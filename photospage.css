@@ -1,36 +1,38 @@
 body {
-background-color: ghostwhite;
+    background-color: ghostwhite;
+    overflow-x: hidden;
 
 }
-main {
-background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
-height: 550px;
 
-background-repeat: no-repeat;
-background-size: cover;
-color: #00bfff;
-background-position: 45% 60%;
+main {
+    background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+    height: 550px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #00bfff;
+    background-position: 45% 60%;
 }
 
 .texto-principal {
     display: flex;
     flex-direction: column;
-text-align: center;
-max-height: 20em;
-padding: 33% 0 0 0%;
+    text-align: center;
+    max-height: 20em;
+    padding: 33% 0 0 0%;
 }
 
 div {
-display: flex;
+    display: flex;
 
 
 }
 
 .pai {
 
-display: flex;
-align-items: center;
-margin: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
 
 
 }
@@ -39,79 +41,89 @@ margin: 5px;
 
 .texto {
 
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .texto p {
 
-max-width: 70%;
-margin: 10px;
+    max-width: 90%;
 
 }
-    
 
-    .paidois {
-    
+
+.paidois {
+
     display: flex;
     align-items: center;
-    
-    
-    
-    }
-    
-    
-    
-    .textodois {
-    
+    padding: 5% 5%;
+
+
+
+
+}
+
+
+
+.textodois {
+    gap: 10%;
+
     display: flex;
     flex-direction: column;
-    
-    }
-    
-    .textodois p {
-    max-width: 70%;
-    
-    }
 
-    .imgteste {
-       
-width: 550px;
-margin: 10px;
-    }
 
-    .titulo {
+}
 
-text-align: center;
-padding: 5% 0;
+.textodois p {
+    max-width: 90%;
 
-    }
+}
 
-    .family img {
+.imgteste {
 
-height: 17em;
-border-radius: 50%;
+    width: 550px;
+    margin: 10px;
+}
 
-    }
+.titulo {
 
-    .family {
+    text-align: center;
+    padding: 5% 0;
 
-width: 30em;
-display: flex;
-align-items: center;
-    }
+}
 
-    .familytexto {
-        display: flex;
+.family img {
+
+    height: 17em;
+    border-radius: 50%;
+
+}
+
+.family {
+
+    width: 30em;
+    display: flex;
+    align-items: center;
+}
+
+.familytexto {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0 15px;
+}
+
+.paifamily {
+
+    display: flex;
+    padding: 5% 0;
+
+}
+
+@media (max-width:900px){
+    .pai, .paidois {
         flex-direction: column;
-        gap: 3px;
-        padding: 0 15px;
-    }
-
-    .paifamily {
-
-display: flex;
-padding: 5% 0;
 
     }
+}

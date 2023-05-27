@@ -1,3 +1,6 @@
-body {
-    background-image: linear-gradient(to bottom, #9FA7CB 50%, #fff 50%);
+main {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
