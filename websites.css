@@ -1,7 +1,7 @@
 :root {
   --color1: #111111;
   --color2: #AF40FF;
-  --color3: #1164ff;
+  --color3: #276FCF;
   --color4: #fff;
   --color5: #5B42F3;
 }
@@ -21,7 +21,7 @@ main {
   color: #fff;
   align-items: center;
   justify-content: space-around;
-  background-color: #1164ff;
+  background-color: #276FCF;
   gap: 10%;
 }
 
@@ -50,7 +50,7 @@ h2 {
   height: 25rem;
   gap: 1rem;
   padding: 5% 10%;
-  background-image: linear-gradient(180deg, #fff 50%, #1164ff 50%);
+  background-image: linear-gradient(180deg, #fff 50%, #276FCF 50%);
 }
 
 .section1>div {
@@ -78,7 +78,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 2% 10%;
-  background-color: #1164ff;
+  background-color: #276FCF;
   color: #fff;
   min-height: 100vh;
   overflow-x: hidden;
