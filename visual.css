@@ -4,27 +4,32 @@
 body {
     background-image: linear-gradient(rgb(240, 240, 240), rgb(104, 248, 193), rgb(110, 248, 239), rgb(64, 200, 250), rgb(102, 112, 242), rgb(73, 108, 246), rgb(122, 84, 246), rgb(18, 41, 248));
     margin: 0;
-    border: groove rgb(80, 248, 239) 20px;
+    overflow-x: hidden;
+    padding-top: 10vh;
 }
 
-
+main {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
 
 .titulo {
     text-decoration: underline 10px;
     font-size: 40px;
     text-align: center;
+    margin-top: 70px;
+
 }
 
 p {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
     font-size: 20PX;
 }
 
 
 .sub-titulo {
-    
+
     text-decoration: underlzne;
     font-family: 'PT Serif', serif;
     font-size: 35px;
@@ -33,6 +38,8 @@ p {
 h3 {
     font-family: 'PT Serif', serif;
     font-size: 25px;
+    margin-top: 70px;
+
 }
 
 .equipe h3 {
@@ -47,15 +54,17 @@ h3 {
 
 }
 
-img{
+img {
     width: 500px;
-    
+
 }
 
 .texto1 {
-margin-top: 100px;
+    margin-top: 100px;
     display: flex;
 }
+
+
 
 .conteudo {
     display: flex;
@@ -68,12 +77,12 @@ margin-top: 100px;
 .img2 {
     width: 20%;
     height: 20%;
-    vertical-align: middle;
 }
 
 
 .conteudo2 {
     display: flex;
+    gap: 10px;
 }
 
 .img3 img {
@@ -83,43 +92,48 @@ margin-top: 100px;
 }
 
 .texto4 {
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.equipe{
-    padding-bottom: 5%;
-}
-
-.equipe p{
-margin-bottom: 0;
-}
-
-.equipe h3{
-    margin-top: 70px;
-    margin-bottom: 10px;
-}
-
-
-
-.familha{
     display: flex;
 }
 
-.integrantes img{
-    margin-left: 30px;
-    width: 275px;
-border-radius: 50%;
+.equipe {
+    padding-bottom: 5%;
+}
+
+.equipe p {
+    margin-bottom: 0;
+}
+
+.equipe h3 {
+    margin-top: 70px;
 }
 
 
 
+.familha {
+    display: flex;
+    text-align: center;
+}
 
+.integrantes img {
+    margin-left: 30px;
+    width: 275px;
+    border-radius: 50%;
+    padding: 15px;
+}
 
+@media (max-width:900px) {
+    img {
+        display: block;
+    }
 
+    .texto1,
+    .conteudo,
+    .etapas, .conteudo2,
+    .familha,
+    .texto3,
+    .texto2 {
+        flex-direction: column;
+        padding-top: 10% 0;
+    }
 
-
-
-
-
-
+}

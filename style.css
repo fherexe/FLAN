@@ -14,7 +14,7 @@ body {
 }
 main {
     height: 90vh;
-    background-image: linear-gradient(to bottom, #ce4a4a00, #c2171700, #ac323200, #07070711, #1111117c);
+    margin-bottom: 10%;
 }
 
 .bg-img {
