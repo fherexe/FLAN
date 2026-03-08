@@ -3,10 +3,14 @@
 const menuHamburger = document.querySelector('.hamburger-menu');
 const menu = document.querySelector('.menu');
 
-menuHamburger.addEventListener('click', () =>{
+menuHamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
   menuHamburger.classList.toggle('active');
-  
+
   //toggle vai definir que quando clicar vai fazer a ação e quando clicar novamente vai desfazer
-} ); //atribuir ação a uma função 
+}); //atribuir ação a uma função 
+
+
+//Atualizar ano no Footer automaticamente
+document.getElementById("ano").textContent = new Date().getFullYear();
 
